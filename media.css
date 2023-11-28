@@ -1,0 +1,94 @@
+
+/*ширина экрана : <1200*/
+/*ширина контейнера : 1200*/
+
+/*ширина экрана:>1200*/
+/*ширина контейнера : 1000*/
+
+/*ш э - 1400*/
+/*ш к = 1200*/
+
+/*ш э = 1199*/
+/*ш к = 1000*/
+@media (max-width: 1199px) {
+    .container{
+        width: 1000px;
+    }
+}
+@media (max-width: 999px) {
+    .container{
+        width: 800px;
+    }
+}
+@media (max-width: 799px) {
+    .container{
+        width: 600px;
+    }
+    .header__top ul{
+        column-gap: 15px;
+    }
+    .question__box{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .video__first{
+        width: 100%;
+    }
+}
+@media (max-width: 599px) {
+    .container {
+        width: 400px;
+    }
+
+    .header__top {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .header__top ul {
+        column-gap: 7px;
+    }
+    .icons__box{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .icons__card p {
+        margin-top: 9px;
+    }
+    .one__loft{
+        width: 190px;
+        padding: 150px 0 20px 20px;
+    }
+    .email__box{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .email__left{
+        width: 100%;
+    }
+    .email__right{
+        width: 100%;
+    }
+    .footer__box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 25px;
+    }
+}
+@media (max-width: 399px) {
+    .container{
+        width: 90%;
+    }
+    .header__top ul{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .header__contact{
+        flex-direction: column;
+    }
+    .one__loft{
+        width: 49%;
+    }
+}
